@@ -207,8 +207,4 @@ class MainWindow(QWidget):
         self.name_input.clear()
         self.kelas_input.clear()
 
-if __name__ == "__main__":
-    app = QApplication([])
-    window = MainWindow()
-    window.show()
-    app.exec_()
+
